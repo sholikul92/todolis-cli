@@ -49,9 +49,9 @@ func main() {
 			fmt.Println("Pilihan yang anda masukan salah")
 		}
 
-		var backToHome string
-		fmt.Print("\n\ntekan enter untuk kembali ke menu utama")
-		fmt.Scanln(&backToHome)
+		fmt.Print("\nTekan enter untuk kembali ke menu utama")
+		inputUser()
+
 	}
 }
 
